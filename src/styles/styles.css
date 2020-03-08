@@ -40,6 +40,12 @@ body {
   display: grid;
 }
 
+.Character-back {
+  color:#15302C;
+  text-decoration: none;
+  text-align: right;
+}
+
 .Characters-card {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
@@ -57,9 +63,10 @@ body {
 }
 
 .Characters-card h2 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   text-align: center;
+  color: blueviolet;
 }
 
 .Characters-card h3 {
@@ -80,9 +87,9 @@ body {
 }
 
 .Characters-item img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  border-radius: 5px 5px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .Characters-item h2 {

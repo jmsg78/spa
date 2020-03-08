@@ -17,6 +17,7 @@ const Character = async () => {
             <h3>Origin: <span>${character.origin.name} </span></h3>
             <h3>Last location:<span>${character.location.name} </span></h3>
         </article>
+        <p class="Character-back"><a href="./">Back</a></p>
     </div>
     `;
     return view;
